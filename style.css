@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.background {
+    width: 30vw;
+    height: 100vh;
+    background-image: url('C:/Users/Jurju/OneDrive/Desktop/project/sign-up-form-/background.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
