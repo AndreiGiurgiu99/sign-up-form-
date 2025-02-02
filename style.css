@@ -4,12 +4,22 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+}
 
 .background {
     width: 30vw;
     height: 100vh;
-    background-image: url('C:/Users/Jurju/OneDrive/Desktop/project/sign-up-form-/background.jpg');
+    background-image: url("./background2.jpg");
     background-size: cover;
     background-position: center;
+
+}
+
+.sign-up {
+    width: 70vw;
+    height: 100vh;
+    background-color: whitesmoke;
 
 }
