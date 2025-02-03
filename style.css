@@ -47,3 +47,12 @@ body {
     width: 75px;
     height: auto;
 }
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 10%;
+}
