@@ -61,6 +61,32 @@ input {
     padding: 5px;
 }
 
+input:focus {
+    border: 1px solid blue ;
+    outline: none;
+}
+
+#password:user-invalid {
+    border: 1px solid red !important;
+    outline: none;
+}
+
+#confirm-password:user-invalid {
+    border: 1px solid red !important;
+    outline: none;
+}
+
+#password:user-valid {
+    border: 1px solid green !important;
+    outline: none;
+}
+
+#confirm-password:user-valid {
+    border: 1px solid green !important;
+    outline: none;
+}
+
+
 .child {
     flex: 1;
 }
@@ -107,4 +133,26 @@ span {
     display: flex;
     flex-direction: column;
     font-size: 14px;
+}
+
+.footer {
+    padding: 40px;
+}
+.submit {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: rgb(218, 118, 36);
+    border: none;
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.login-link  {
+    text-decoration: none;
+    color: rgb(218, 118, 36);
+    font-weight: bold;
 }
